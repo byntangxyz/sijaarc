@@ -1,7 +1,7 @@
 const Member = () => {
   return (
     <>
-      <h1>test</h1>
+      <h1 className="text-white text-4xl text-center">Comming Soon!</h1>
     </>
   );
 };

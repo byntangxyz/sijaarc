@@ -9,6 +9,7 @@ import { InstagramLogo, DiscordLogo, HardDrives } from "@phosphor-icons/react";
 
 function MainPages() {
   const [currentDaySchedule, setCurrentDaySchedule] = useState("");
+  const [currentDayPiket, setCurrentDayPiket] = useState("");
 
   const schedules = [
     "Senin: Seni Budaya - Bu Mukti | Informatika - Bu Ratna | PPKN - Bu Yohana | Bahasa Jawa - Pak Fajar",
@@ -18,12 +19,22 @@ function MainPages() {
     "Jumat: DDK 3 JARKOM - Pak Yunianto | Agama - Bu Fera",
   ];
 
+  const Piket = [
+    "Adel, Koko, Dino, Sabreen, Doni, Dimas, Hafiz",
+    "Bening, Damar, Aina, Aulia, Baim, Farel, Arjuna",
+    "Azis, Ghaza, Luthfi, Ikhsan, Caesar, Arka, El, Tyta",
+    "Arfa, Ardian, Hito, Aza, Galang, Isa, Alfino",
+    "Dinda, Kenzie, Arya, Bintang, Danang, Miko, Kenza",
+  ];
+
   useEffect(() => {
     const dayIndex = new Date().getDay();
     if (dayIndex >= 1 && dayIndex <= 5) {
       setCurrentDaySchedule(schedules[dayIndex - 1]);
+      setCurrentDayPiket(Piket[dayIndex - 1]);
     } else {
       setCurrentDaySchedule("Libur - Tidak ada jadwal pembelajaran hari ini");
+      setCurrentDayPiket("-");
     }
     AOS.init({
       duration: 1000, // Durasi animasi
@@ -53,7 +64,7 @@ function MainPages() {
                 <div data-aos="zoom-in-left">
                   <div className="bg-white rounded-lg shadow-lg p-6">
                     <h2 className="text-2xl font-bold mb-4">
-                      Jadwal Pelajaran
+                      Jadwal Pelajaran & Piket
                     </h2>
                     <p className="mb-4">
                       Jadwal pelajaran kelas X SIJA A Semester 2 2024/2025.{" "}
@@ -67,6 +78,9 @@ function MainPages() {
                     </p>
                     <div className="text-gray-700">
                       <p>{currentDaySchedule}</p>
+                    </div>
+                    <div className="text-gray-500">
+                      <p>Piket: {currentDayPiket}</p>
                     </div>
                   </div>
                 </div>

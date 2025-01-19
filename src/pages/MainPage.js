@@ -25,13 +25,12 @@ function MainPages() {
     } else {
       setCurrentDaySchedule("Libur - Tidak ada jadwal pembelajaran hari ini");
     }
+    AOS.init({
+      duration: 1000, // Durasi animasi
+      once: false, // Animasi hanya sekali
+    });
+    AOS.refresh();
   }, []);
-
-  AOS.init({
-    duration: 1000, // Durasi animasi
-    once: false, // Animasi hanya sekali
-  });
-  AOS.refresh();
 
   return (
     <>

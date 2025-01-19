@@ -6,12 +6,18 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
+    "@phosphor-icons/react": "^2.1.7",
+    "aos": "^2.3.4",
+    "framer-motion": "^11.18.1",
+    "motion": "^11.18.1",
+    "next": "15.1.5",
+    "next-sitemap": "^4.2.3",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.1.5"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "postcss": "^8",

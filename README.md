@@ -3,9 +3,9 @@
 dibuat oleh seluruh anggota kelas SIJA A
 tapi banyakan gweh jir yg bikin
 
-(WEBSITE)[https://sijaarc.my.id]
+[WEBSITE](https://sijaarc.my.id)
 
-## Framework & Library
+## Library
 
 - NextJs (React)
 

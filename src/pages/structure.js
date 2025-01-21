@@ -1,7 +1,7 @@
-import { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import Member from './Member';
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import Member from "./Member";
 
 function Structure() {
   useEffect(() => {
@@ -10,7 +10,6 @@ function Structure() {
       once: false, // Animasi hanya sekali
     });
   }, []);
-  
 
   return (
     <>
@@ -28,7 +27,9 @@ function Structure() {
             <div data-aos="zoom-in-up">
               <div className="flex flex-col items-center">
                 <div className="bg-white text-center rounded-lg shadow-md p-4 w-48">
-                  <h3 className="text-xl font-semibold">Wali Kelas</h3>
+                  <h3 className="text-xl font-semibold text-black">
+                    Wali Kelas
+                  </h3>
                   <p className="text-gray-700 ">Bu Ratna</p>
                 </div>
                 <div className="h-8 w-1 bg-gray-300 -mt-1"></div>{" "}
@@ -40,7 +41,9 @@ function Structure() {
             <div data-aos="zoom-in-up">
               <div className="flex flex-col items-center -mt-4">
                 <div className="bg-white  text-center rounded-lg shadow-md p-4 w-48">
-                  <h3 className="text-xl font-semibold">Ketua Kelas</h3>
+                  <h3 className="text-xl font-semibold text-black">
+                    Ketua Kelas
+                  </h3>
                   <p className="text-gray-700 ">Adelia Fauzia</p>
                 </div>
                 <div className="h-8 w-1 bg-gray-300 -mt-1"></div>{" "}
@@ -52,7 +55,9 @@ function Structure() {
             <div data-aos="zoom-in-up">
               <div className="flex flex-col items-center -mt-4">
                 <div className="bg-white  text-center rounded-lg shadow-md p-4 w-48">
-                  <h3 className="text-xl font-semibold">Wakil Ketua</h3>
+                  <h3 className="text-xl font-semibold text-black">
+                    Wakil Ketua
+                  </h3>
                   <p className="text-gray-700 ">Ibrahim</p>
                 </div>
                 <div className="h-6 w-1 bg-gray-300 -mt-1"></div>{" "}
@@ -70,7 +75,7 @@ function Structure() {
               {/* Sekretaris */}
               <div data-aos="fade-up-right">
                 <div className="bg-white  text-center rounded-lg shadow-md p-2 w-48 mt-5">
-                  <h3 className="text-base font-semibold md:text-xl">
+                  <h3 className="text-base font-semibold md:text-xl text-black">
                     Sekretaris
                   </h3>
                   <p className="text-gray-700 text-xs md:text-base">
@@ -82,7 +87,7 @@ function Structure() {
               {/* Bendahara */}
               <div data-aos="fade-up-left">
                 <div className="bg-white  text-center rounded-lg shadow-md p-2 w-48 mt-5">
-                  <h3 className="text-base font-semibold md:text-xl">
+                  <h3 className="text-base font-semibold md:text-xl text-black">
                     Bendahara
                   </h3>
                   <p className="text-gray-700 text-xs md:text-base">

@@ -15,6 +15,11 @@ const nextConfig = {
         destination: "https://discord.gg/KR7rrsFBHP",
         permanent: true,
       },
+      {
+        source: "/ddk3-Java",
+        destination: "https://www.canva.com/design/DAGb8zYm4b8/vR2-XEVm4vPSVy5O1QUsiA/edit?utm_content=DAGb8zYm4b8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+        permanent: true,
+      },
     ];
   },
 };

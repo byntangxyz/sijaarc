@@ -13,8 +13,8 @@ function MainPages() {
 
   const schedules = [
     "Senin: Seni Budaya - Bu Mukti | Informatika - Bu Ratna | PPKN - Bu Yohana | Bahasa Jawa - Pak Fajar",
-    "Selasa: DDK 2 SISKOM - Bu Endah | Bahasaa Indonesia - Bu Fani | Bahasa Inggris | Mrs",
-    "Rabu: Bahasa Inggris - Mrs. | DDK 3 Pemro - Bu Fani | IPAS - Bu Yanti | Sejarah - Bu Bakti",
+    "Selasa: DDK 2 SISKOM - Bu Endah | Bahasaa Indonesia - Bu Fani | Bahasa Inggris | Bu Dwi",
+    "Rabu: Bahasa Inggris - Bu Dwi | DDK 3 Pemro - Bu Fani | IPAS - Bu Yanti | Sejarah - Bu Bakti",
     "Kamis: PJOK - Pak W. | Matematika - Bu Hartitik | IPAS - Bu Yanti",
     "Jumat: DDK 3 JARKOM - Pak Yunianto | Agama - Bu Fera",
   ];
@@ -52,7 +52,7 @@ function MainPages() {
             <div className="container mx-auto flex flex-col lg:flex-row gap-6 px-4">
               <div className="bg-white rounded-lg shadow-lg p-6 w-full lg:w-1/2 overflow-hidden box-border">
                 <h2 className="text-2xl font-bold mb-4">SIJA ARC STEMBAYO</h2>
-                <p className="mb-4">
+                <p className="mb-4 text-black">
                   Halo Dunia! Kami adalah siswa-siswi SMKN 2 Depok Sleman
                   jurusan Sistem Informasi Jaringan dan Aplikasi (SIJA) angkatan
                   ke-28.
@@ -63,10 +63,10 @@ function MainPages() {
               <div className="flex flex-col w-full lg:w-1/2 gap-6">
                 <div data-aos="zoom-in-left">
                   <div className="bg-white rounded-lg shadow-lg p-6">
-                    <h2 className="text-2xl font-bold mb-4">
+                    <h2 className="text-2xl font-bold mb-4 text-black">
                       Jadwal Pelajaran & Piket
                     </h2>
-                    <p className="mb-4">
+                    <p className="mb-4 text-black">
                       Jadwal pelajaran kelas X SIJA A Semester 2 2024/2025.{" "}
                       <Link
                         href={"/file/rev2-jadwal.pdf"}
@@ -87,10 +87,10 @@ function MainPages() {
 
                 <div data-aos="zoom-in-left">
                   <div className="bg-white rounded-lg shadow-lg p-6">
-                    <h2 className="text-2xl font-bold mb-4">
+                    <h2 className="text-2xl font-bold mb-4 text-black">
                       Informasi Lainnya
                     </h2>
-                    <p className="mb-4 ">
+                    <p className="mb-4 text-black">
                       Website ini dibuat oleh seluruh siswa SIJA A
                     </p>
                     <ul className="space-y-2">

@@ -20,6 +20,11 @@ const nextConfig = {
         destination: "https://www.canva.com/design/DAGb8zYm4b8/vR2-XEVm4vPSVy5O1QUsiA/edit?utm_content=DAGb8zYm4b8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
         permanent: true,
       },
+      {
+        source: "/ddk3-GoLang",
+        destination: "https://www.canva.com/design/DAGcOs7p5hM/vlNpOqt2T6OEWfZKa55PIQ/edit?utm_content=DAGcOs7p5hM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+        permanent: true,
+      }
     ];
   },
 };

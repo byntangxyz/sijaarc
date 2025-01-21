@@ -28,7 +28,7 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: "/ddk3-C#",
+        source: "/ddk3-CS",
         destination:
           "https://www.canva.com/design/DAGcOlJXo28/7U4SA0XFtJMW9jXU5suuXw/edit?utm_content=DAGcOlJXo28&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
         permanent: true,

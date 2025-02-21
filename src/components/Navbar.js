@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { useState, useRef, useEffect } from "react";
 
 const Header = () => {
@@ -51,7 +52,7 @@ const Header = () => {
         <div className="flex items-center justify-between relative">
           <div className="px-4">
             <a
-              href="#home"
+              href="/"
               className="font-bold text-3xl block py-6 px-4 text-white"
             >
               SijaArc
@@ -80,28 +81,36 @@ const Header = () => {
             >
               <ul className="block lg:flex">
                 <li className="group">
-                  <a
-                    href="#main"
+                  <Link
+                    href="/#main"
                     className="text-base text-black lg:text-white py-2 mx-8 flex group-hover:text-blue-400 dark text-black:lg:text-white"
                   >
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li className="group">
-                  <a
-                    href="#class"
+                  <Link
+                    href="/#class"
                     className="text-base text-black lg:text-white py-2 mx-8 flex group-hover:text-blue-400 dark text-black:lg:text-white"
                   >
                     Class
-                  </a>
+                  </Link>
                 </li>
                 <li className="group">
-                  <a
-                    href="#member"
+                  <Link
+                    href="/#member"
                     className="text-base text-black lg:text-white py-2 mx-8 flex group-hover:text-blue-400 dark text-black:lg:text-white"
                   >
                     Member
-                  </a>
+                  </Link>
+                </li>
+                <li className="group">
+                  <Link
+                    href="/randomizer"
+                    className="text-base text-black lg:text-white py-2 mx-8 flex group-hover:text-blue-400 dark text-black:lg:text-white"
+                  >
+                    Randomizer
+                  </Link>
                 </li>
                 {/* <li className="group">
                   <button

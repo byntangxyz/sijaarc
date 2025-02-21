@@ -112,7 +112,7 @@ export default function Randomizer() {
               initial={{ opacity: 0, y: -10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="border p-2 mt-2 rounded bg-white shadow-md text-center"
+              className="border p-2 mt-2 rounded bg-white text-black shadow-md text-center"
             >
               <strong>Kelompok {index + 1}:</strong> {group.join(", ")}
             </motion.div>

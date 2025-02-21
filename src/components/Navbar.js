@@ -104,14 +104,6 @@ const Header = () => {
                     Member
                   </Link>
                 </li>
-                <li className="group">
-                  <Link
-                    href="/randomizer"
-                    className="text-base text-black lg:text-white py-2 mx-8 flex group-hover:text-blue-400 dark text-black:lg:text-white"
-                  >
-                    Randomizer
-                  </Link>
-                </li>
                 {/* <li className="group">
                   <button
                     onClick={toggleDarkMode}

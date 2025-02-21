@@ -96,6 +96,14 @@ function MainPages() {
                     <ul className="space-y-2">
                       <li>
                         <Link
+                          href="/randomizer"
+                          className="text-blue-500 dark:text-blue-400 flex m-2"
+                        >
+                          Randomizer Tools
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
                           href="https://sijaarc.my.id/ig"
                           target="_blank"
                           rel="noopener noreferrer"

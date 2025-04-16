@@ -28,6 +28,7 @@ export default function Randomizer() {
         (group) =>
           (group.includes(18) && group.includes(31)) ||
           (group.includes(7) && group.includes(31))
+          (group.includes(29) && group.includes(31))
       );
     }
 

@@ -27,7 +27,7 @@ export default function Randomizer() {
       isValid = !hasil.some(
         (group) =>
           (group.includes(18) && group.includes(31)) ||
-          (group.includes(7) && group.includes(31))
+          (group.includes(7) && group.includes(31)) ||
           (group.includes(29) && group.includes(31))
       );
     }

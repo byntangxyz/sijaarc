@@ -67,7 +67,7 @@ export default function Randomizer() {
               let value = parseInt(e.target.value, 10);
               setTotalSiswa(value > 0 ? value : 1);
             }}
-            className="border p-2 rounded w-full"
+            className="border p-2 rounded w-full text-white"
             min="1"
             placeholder="Jumlah Siswa"
           />
@@ -83,7 +83,7 @@ export default function Randomizer() {
               let value = parseInt(e.target.value, 10);
               setAnggotaPerKelompok(value > 0 ? value : 1);
             }}
-            className="border p-2 rounded w-full"
+            className="border p-2 rounded w-full text-white"
             min="1"
             placeholder="Anggota per Kelompok"
           />

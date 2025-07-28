@@ -58,7 +58,7 @@ function Structure() {
                   <h3 className="text-xl font-semibold text-black">
                     Wakil Ketua
                   </h3>
-                  <p className="text-gray-700 ">Ibrahim</p>
+                  <p className="text-gray-700 ">Jatmiko Radi Kurniawan</p>
                 </div>
                 <div className="h-6 w-1 bg-gray-300 -mt-1"></div>{" "}
                 {/* Garis bercabang ke Sekretaris dan Bendahara */}

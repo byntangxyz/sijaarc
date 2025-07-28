@@ -51,7 +51,7 @@ function MainPages() {
           <div className="pt-28 flex flex-col items-center" id="main">
             <div className="container mx-auto flex flex-col lg:flex-row gap-6 px-4">
               <div className="bg-white rounded-lg shadow-lg p-6 w-full lg:w-1/2 overflow-hidden box-border">
-                <h2 className="text-2xl font-bold mb-4">SIJA ARC STEMBAYO</h2>
+                <h2 className="text-2xl font-bold mb-4 text-black">SIJA ARC STEMBAYO</h2>
                 <p className="mb-4 text-black">
                   Halo Dunia! Kami adalah siswa-siswi SMKN 2 Depok Sleman
                   jurusan Sistem Informasi Jaringan dan Aplikasi (SIJA) angkatan

@@ -198,7 +198,7 @@ const member = [
     imageUrl: "https://placehold.co/300",
   },
   {
-    name: "Jatmiku Radi Kurniawan",
+    name: "Jatmiko Radi Kurniawan",
     title: "Member",
     description: "-",
     imageUrl: "https://placehold.co/300",
